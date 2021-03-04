@@ -90,11 +90,11 @@ function App() {
               });
             }
           } catch (error) {
-            console.log(error.message);
+            setResult(error.message);
           }
         }
       } catch (error) {
-        console.log(error.message);
+        setResult(error.message);
       }
     } else if (contrast === 0) {
       setResult("Please set proper contrast");
