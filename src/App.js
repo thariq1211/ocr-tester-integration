@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   card: {
-    maxWidth: 400,
+    maxWidth: "40vw",
   },
   paragraph: {
     marginBlockStart: 0,
@@ -130,7 +130,7 @@ function App() {
       </AppBar>
       <Container fixed>
         <br />
-        <FormControl style={{ width: "400px" }}>
+        <FormControl style={{ width: "40vw" }}>
           <Typography id="continuous-slider" gutterBottom>
             Contrast
           </Typography>
@@ -138,7 +138,7 @@ function App() {
             <Grid item>
               <Brightness5 />
             </Grid>
-            <Grid item xs>
+            <Grid item xs md lg sm>
               <Slider
                 value={contrast}
                 onChange={handleChange}
