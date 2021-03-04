@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "ocr-test",
+      "script": "npm",
+      "args": "start"
+    }
+  ]
+}
